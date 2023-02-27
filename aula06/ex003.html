@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programada</title>
+    <style>
+        body {
+            background-color: lemonchiffon;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tratamento de variáveis</h1>
+    <p>Convertendo string para number</p>
+    <!--Abaixo o script em javascript-->
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número: ')) //já convertendo a variável para número inteiro 
+        var n2 = window.prompt('Digite outro número: ') //recebe valor string, assim não consigo somar se necessário.
+        var soma = n1 + Number.parseInt(n2) //Convertendo direto na operação.
+        alert('A soma dos valores é ' + String(soma) + '!') //Convertendo o soma pra String novamente
+        alert(`A soma entre ${n1} e ${n2} é ${soma}`) //Usando template string para mostrar o resultado
+    </script>
+</body>
+</html>
