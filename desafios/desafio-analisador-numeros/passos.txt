@@ -1,0 +1,12 @@
+Exercicio:
+
+✔Entrada com números entre 1 e 100 com botão de adicionar
+✔um select para mostrar os números adicionados
+✔botão de finalizar
+
+resultados:
+Quantos números foram adicionados
+O maior valor informado
+O menor valor informado
+Soma de todos os valores
+Média dos valores
